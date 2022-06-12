@@ -91,5 +91,12 @@ if c5.button('Predict Now!'):
     result = model.predict(car)[0]
     st.info(f"Predicted value of your car : ${round(result)}")
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
