@@ -15,7 +15,7 @@ html_temp = """
 </div><br>"""
 st.markdown(html_temp,unsafe_allow_html=True)
 
-col1, col2, col3, col4 = st.columns(4) # ekrani iki kolona ayirdik
+col1, col2, col3, col4 = st.columns(4) # ekrani dort kolona ayirdik
 
 
 # selectbox icinde yazacak yazi ve listede nereden neleri sececegini yazdik
