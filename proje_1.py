@@ -11,7 +11,7 @@ df = pd.read_csv("final_model.csv")
 
 html_temp = """
 <div style="background-color:navy;padding:1.5px">
-<h1 style="color:white;text-align:center;">AutoScout Car Price Predictor </h1>
+<h1 style="color:white;text-align:center;">AutoScout Car Price Predictor</h1>
 </div><br>"""
 st.markdown(html_temp,unsafe_allow_html=True)
 
@@ -83,7 +83,6 @@ html_temp = """
 st.markdown(html_temp,unsafe_allow_html=True)
 c1, c2, c3, c4, c5,c6,c7,c8,c9 = st.columns(9) 
 with c5:
-    st.write("")
     st.write("")
     st.write("")
 
