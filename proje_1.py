@@ -17,8 +17,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 
 col1, col2, col3, col4 = st.columns(4) # ekrani dort kolona ayirdik
 
-
-# selectbox icinde yazacak yazi ve listede nereden neleri sececegini yazdik
+# selectbox  icinde yazacak yazi ve listede nereden neleri sececegini yazdik
 
 # __________________________
 user_body_type = col1.selectbox("Select Body Type", df.body_type.unique())
