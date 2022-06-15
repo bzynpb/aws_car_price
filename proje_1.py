@@ -27,7 +27,7 @@ user_make_model = col3.selectbox("Select Model", df.make_model.unique())
 # user_gear = col1.selectbox("Select your car's Gearing Type", df["Gearing Type"].unique())
 user_fuel = col3.selectbox("Select Fuel Type", df.Fuel.unique())
 
-user_gear = col1.selectbox("Select Gearing Type", df["Gearing Type "].unique())
+user_gear = col1.selectbox("Select Gearing Type", df["Gearing Type"].unique())
 
 
 user_km = col1.number_input("KM", 0, 300000, step=10000)
@@ -95,6 +95,7 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
+
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
